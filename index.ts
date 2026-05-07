@@ -1,4 +1,4 @@
-import express, { Request, Response } from "express";
+import express, { type Request, type Response } from "express";
 import { createServer } from "node:http";
 
 const app = express();
